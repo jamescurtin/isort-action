@@ -44,8 +44,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
-          python-version: 3.8
-      - uses: jamescurtin/isort-action@master
+          python-version: 3.9
+      - uses: isort/isort-action@master
         with:
             requirementsFiles: "requirements.txt requirements-test.txt"
 ```
